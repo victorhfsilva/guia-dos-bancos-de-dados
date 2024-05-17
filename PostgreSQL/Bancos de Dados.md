@@ -2,7 +2,7 @@
 
 O PostgreSQL é um sistema de gerenciamento de banco de dados relacional de código aberto amplamente utilizado em aplicativos modernos. Neste guia, vamos explorar como criar, renomear, alterar propriedades e excluir bancos de dados no PostgreSQL.
 
-### 1. Criar Banco de Dados
+### Criar Banco de Dados
 
 Para criar um banco de dados no PostgreSQL, você pode usar a seguinte sintaxe:
 
@@ -16,7 +16,7 @@ Por exemplo, para criar um banco de dados chamado `financeiro`, você pode fazer
 CREATE DATABASE financeiro;
 ```
 
-### 2. Opções para Criar Banco de Dados
+### Opções para Criar Banco de Dados
 
 Ao criar um banco de dados, você pode especificar várias opções, como proprietário, codificação, localização, etc. Algumas opções comuns incluem:
 
@@ -36,7 +36,7 @@ CREATE DATABASE financeiro
 
 Uma tablespace é um conceito encontrado em sistemas de gerenciamento de banco de dados, como o PostgreSQL, que permite aos administradores de banco de dados controlar onde os dados são armazenados fisicamente em um sistema de arquivos.
 
-### 3. Renomear Banco de Dados
+### Renomear Banco de Dados
 
 Para renomear um banco de dados existente, use a seguinte sintaxe:
 
@@ -50,7 +50,7 @@ Por exemplo, para renomear o banco de dados `financeiro` para `financeiro_v1`, v
 ALTER DATABASE financeiro RENAME TO financeiro_v1;
 ```
 
-### 4. Alterar Proprietário do Banco de Dados
+### Alterar Proprietário do Banco de Dados
 
 Você também pode alterar o proprietário de um banco de dados usando:
 
@@ -58,7 +58,7 @@ Você também pode alterar o proprietário de um banco de dados usando:
 ALTER DATABASE <nome_banco_de_dados> OWNER TO <novo_proprietário>;
 ```
 
-#### 5. Editar Propriedades do Banco de Dados
+#### Editar Propriedades do Banco de Dados
 
 Para editar propriedades do banco de dados, use a seguinte sintaxe:
 
@@ -72,7 +72,7 @@ Por exemplo, para alterar a localização de armazenamento do banco de dados `fi
 ALTER DATABASE financeiro SET TABLESPACE novo_tablespace;
 ```
 
-#### 6. Deletar Banco de Dados
+#### Deletar Banco de Dados
 
 Finalmente, para excluir um banco de dados, use:
 

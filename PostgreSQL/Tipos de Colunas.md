@@ -4,7 +4,7 @@ As colunas em um banco de dados PostgreSQL representam os atributos ou campos de
 
 ## Tipos de Dados Básicos:
 
-### 1. INTEGER / SERIAL:
+### INTEGER / SERIAL:
 
 - Armazena números inteiros.
 - O tipo `SERIAL` é usado para gerar automaticamente valores sequenciais únicos.
@@ -18,7 +18,7 @@ As colunas em um banco de dados PostgreSQL representam os atributos ou campos de
   );
   ```
   
-### 2. VARCHAR / TEXT:
+### VARCHAR / TEXT:
 
 - Armazena strings de comprimento variável.
 - `VARCHAR` tem limite de comprimento especificado, enquanto `TEXT` não tem limite.
@@ -32,7 +32,7 @@ As colunas em um banco de dados PostgreSQL representam os atributos ou campos de
   );
   ```
 
-#### 3. BOOLEAN:
+### BOOLEAN:
 
 - Armazena valores de verdadeiro ou falso (true/false).
 
@@ -45,7 +45,7 @@ As colunas em um banco de dados PostgreSQL representam os atributos ou campos de
   );
   ```
 
-#### 4. NUMERIC / DECIMAL:
+### NUMERIC / DECIMAL:
 
 - **Utilização:** Armazena números decimais de precisão arbitrária.
 - **Exemplo:**
@@ -79,7 +79,7 @@ As colunas em um banco de dados PostgreSQL representam os atributos ou campos de
 - **Arredondamento:** O PostgreSQL gerencia automaticamente o arredondamento dos valores de acordo com a escala definida. Por exemplo, se tentarmos inserir 123.456 em uma coluna `DECIMAL(5, 2)`, o valor será arredondado para 123.46.
 
 
-#### 5. DATE:
+### DATE:
 
 - Armazena datas (ano, mês e dia).
 
@@ -92,7 +92,7 @@ As colunas em um banco de dados PostgreSQL representam os atributos ou campos de
   );
   ```
 
-#### 6. TIME:
+### TIME:
 
 - Armazena informações de tempo (horas, minutos, segundos).
 
@@ -106,7 +106,7 @@ As colunas em um banco de dados PostgreSQL representam os atributos ou campos de
   );
   ```
 
-### 7. TIMESTAMP / TIMESTAMPTZ:
+### TIMESTAMP / TIMESTAMPTZ:
 
 - **Utilização:** Armazena data e hora, com ou sem fuso horário.
 - **Exemplo:**

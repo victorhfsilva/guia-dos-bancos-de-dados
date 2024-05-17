@@ -1,9 +1,19 @@
 # 😎 Guia dos Bancos de Dados
 
-Bem-vindo ao Guia dos Bancos de DAdos! Este repositório é o ponto de partida perfeito para quem quer mergulhar no universo dos Bancos de DAdos. Aqui, você encontrará uma série de arquivos recheados de conceitos, exemplos práticos e links úteis para o desenvolvimento.
+Bem-vindo ao Guia dos Bancos de Dados! Este repositório é o ponto de partida perfeito para quem quer mergulhar no universo dos Bancos de Dados. Aqui, você encontrará uma série de arquivos recheados de conceitos, exemplos práticos e links úteis para o desenvolvimento.
 
 
 ## 📚 Conteúdo:
+
+### SQL
+
+- [DDL: CREATE, ALLTER, DROP](./SQL/DDL.md)
+- [DML: SELECT, INSERT, UPDATE, DELETE](./SQL/DML.md)
+- [Joins](./SQL/Joins.md)
+- [Operadores](./SQL/Operadores.md)
+- [Funções de Agregação](./SQL/Funções%20de%20Agregação.md)
+- [Funções de Dados](./SQL/Funções%20de%20Dados.md)
+- [Múltiplas Consultas](./SQL/Múltiplas%20Consultas.md)
 
 ### PostgreSQL
 
